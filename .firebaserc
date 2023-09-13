@@ -1,12 +1,5 @@
 {
   "targets": {
-    "traditional-foods-b7cee": {
-      "hosting": {
-        "final": [
-          "traditional-foods-b7cee"
-        ]
-      }
-    },
     "gold-gateway-397319": {
       "hosting": {
         "final": [
