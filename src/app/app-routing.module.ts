@@ -26,7 +26,7 @@ const routes: Routes = [
   {path:'menu/drinks',component:DrinksComponent},
   {path:'menu/desserts',component:DessertsComponent},
   {path:'menu',component:MenuComponent},
-  {path:'', redirectTo: 'login', pathMatch:'full'},
+  {path:'', redirectTo: 'home', pathMatch:'full'},
   {path:'menu/food/search/:searchTerm',component:FoodComponent},
   {path:'menu/drinks/search/:searchTerm',component:DrinksComponent} ,
   {path:'menu/desserts/search/:searchTerm',component:DessertsComponent} ,

@@ -7,6 +7,12 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
+  // register method
+  getUserProfile() {
+    throw new Error('Method not implemented.');
+  }
+
+  
 
   constructor(private fireauth : AngularFireAuth, private router : Router) { }
 
@@ -80,5 +86,7 @@ export class AuthService {
     })
   }
 
+
+  
 
 }
